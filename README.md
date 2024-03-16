@@ -34,9 +34,9 @@ The CSS styles are responsible for toggling the visibility of the menu and anima
 2. When the checkbox input is checked (`#check:checked ~ .nav-mobile`), the `.nav-mobile` element is displayed.
 3. Media queries are used to adjust the styles for different screen sizes, ensuring a responsive design.
 
-<!-- ## Demo
+## Demo
 
-You can see a live demo of the hamburger menu [here](https://your-demo-link.com). -->
+You can see a live demo of the hamburger menu [here](https://mukundkumra.github.io/hamburger/src/index.html).
 
 ## Usage
 
