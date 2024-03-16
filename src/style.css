@@ -1,0 +1,100 @@
+body, h1, h2, h3, h4, h5 {
+  font-family: Montserrat, sans-serif;
+  margin: 0;
+}
+
+p {
+  margin: 1rem 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Pseudo-Classes */
+
+::selection {
+  background-color: #e8ffff;
+  color: #373a40;
+}
+
+/* Navigation Bar*/
+
+nav {
+  padding: 1.5rem 2rem;
+  background-color: #222831;
+  color: #fff;
+}
+
+.checkbtn{
+  font-size: 1.5rem;
+  color: white;
+  cursor: pointer;
+}
+
+#check{
+  display: none;
+}
+
+#check:checked ~ .nav-mobile{display: block;}
+
+.nav-mobile {
+  display: none;
+  position: absolute;
+  top: 4.5rem;
+  left: 0;
+  overflow: hidden;
+  background: #222831;
+  z-index: 1;
+  width: 200px;
+}
+
+.nav-mobile a {
+  color: #fff;
+  padding: 1rem 1.5rem;
+  display: block;
+}
+
+hr {
+  background-color: #393e46;
+  padding: 1px;
+  border: none;
+}
+
+/* Tutorial */
+
+.tutorial {
+  padding: 0 5rem;
+  font-size: 2rem;
+  text-align: justify;
+}
+
+.tutorial-head {
+  text-align: center;
+  margin: 2rem 0 1rem;
+}
+
+.tutorial p {
+  margin: 1rem 0 4rem;
+}
+
+.tutorial h1 {
+  font-weight: 600;
+}
+
+/* Media Query Breakpoints */
+
+@media only screen and (max-width:992px) {
+
+  /* Banner */
+  .banner-text h1 {font-size: 1.5rem;}
+
+  /* Navigation Bar */
+  nav {padding: 5rem 0;}
+  .checkbtn{display: block; font-size: 5rem; position: absolute; top: 30px; left: 40px;}
+  .nav-mobile { top:10rem; width: 100%;}
+  .nav-mobile a { font-size: 2rem; padding: 2rem 3rem;}
+
+  /* Tutorial */
+  .tutorial{font-size: 1.5rem;}
+}
