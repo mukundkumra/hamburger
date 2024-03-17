@@ -36,11 +36,17 @@ The CSS styles are responsible for toggling the visibility of the menu and anima
 
 ## Demo
 
+![Hamburger Menu Demo](./img/demo-pc.gif)
+
 You can see a live demo of the hamburger menu [here](https://mukundkumra.github.io/hamburger/src/index.html).
 
 ## Usage
 
-To use this hamburger menu in your project, simply copy the HTML and CSS code from the repository and customize it according to your needs. You can add or remove menu items, change the styles, or adjust the breakpoints for different screen sizes.
+To use this hamburger menu in your project, simply copy the HTML and CSS code from the repository and customize it according to your needs. You can add or remove menu items, change the styles, or adjust the breakpoints for different screen sizes. Alternatively, You can clone the repository to your local machine.
+
+## Tutorial
+
+You can find a step-by-step tutorial [here](https://medium.com/@mukundkumra.io/create-a-responsive-hamburger-menu-with-html-and-css-a-step-by-step-tutorial-c63e44fcee2e)
 
 ## Resources
 
